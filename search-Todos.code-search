@@ -1,0 +1,29 @@
+# Query: todo:
+# ContextLines: 1
+
+5 results - 5 files
+
+src/pages/components/state.js:
+  10      } else {
+  11:       setIndex(0) // todo: this not working fixme:
+  12      }
+
+src/pages/qcomps/recipes.js:
+  35    //           ))}
+  36:   //           } // todo: fix this by chatgpt
+  37    //         </ul>
+
+src/pages/qcomps/shoppingCart.js:
+  1  import { useState } from "react"
+  2: // todo:
+  3  
+
+src/pages/qcomps/state.js:
+   9      setIndex(index + 1)
+  10:     // todo: handle the page bug here like the one in component/state
+  11    }
+
+src/pages/qcomps/stuckForm.js:
+  3  export default function Form() {
+  4:   // todo:
+  5    // let firstName = '';

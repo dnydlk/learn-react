@@ -1,0 +1,9 @@
+# Query: fixme:
+# ContextLines: 1
+
+1 result - 1 file
+
+src/pages/components/state.js:
+  10      } else {
+  11:       setIndex(0) // todo: this not working fixme:
+  12      }
