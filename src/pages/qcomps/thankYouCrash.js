@@ -4,7 +4,7 @@ export default function FeedbackForm() {
   const [isSent, setIsSent] = useState(false)
   const [message, setMessage] = useState("")
   if (isSent) {
-    return <h1>Thank you!</h1>
+    return <h1>Thank you! {message}</h1>
   } else {
     // eslint-disable-next-line
     return (

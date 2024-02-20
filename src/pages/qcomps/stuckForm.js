@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 export default function Form() {
-  // todo:
   // let firstName = '';
   const [firstName, setFirstName] = useState("")
   // let lastName = '';
@@ -9,7 +8,6 @@ export default function Form() {
 
   function handleFirstNameChange(e) {
     setFirstName(e.target.value)
-
     setFirstName(e.target.value)
   }
 
