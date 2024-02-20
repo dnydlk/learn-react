@@ -1,5 +1,4 @@
 import { useState } from "react"
-// todo:
 
 export default function RequestTracker() {
   const [pending, setPending] = useState(0)
